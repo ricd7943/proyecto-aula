@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Aula</title>
+  <!-- Ruta correcta al CSS; verifica si está en la carpeta public -->
+  <link rel="stylesheet" href="/App.css" />
+  <!-- Script para pdf-lib -->
+  <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="title-container">
+      <img src="/images/3OIP.jpg" alt="Descripción de la imagen" class="title-image"/>
+      <div class="title-text">
+        <h1>Proyecto Aula</h1>
+        <h2>Desarrollo De Software</h2>
+
+        <nav1 class="navbar">
+          <button class="icon-button" aria-label="Menu">
+            <span class="menu-icon"></span>
+          </button>
+          <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav1>
+      </div>
+    </div>
+   
+  </header>
+
+  <!-- Elemento root para React -->
+  <div id="root"></div>
+
+  <!-- Ruta al archivo main.jsx; asegúrate de que el archivo exista aquí -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
